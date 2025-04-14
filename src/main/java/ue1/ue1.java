@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class ue1 {
 
     public static void main(String[] args) {
-        rateZahl();
+        //rateZahl();
+        snakeLanguageTranslator();
     }
 
     public static void rateZahl(){
@@ -34,5 +35,22 @@ public class ue1 {
         }
     }
 
+    public static void snakeLanguageTranslator(){
+        String vowels = "aeiouAEIOU";
 
+        System.out.println("Bitte geben Sie einen Text ein:");
+        Scanner scanner = new Scanner(System.in);
+        String eingabe = scanner.nextLine();
+        String ausgabe = "";
+
+        for (int i = 0; i < eingabe.length(); i++) {
+            char position = eingabe.charAt(i);
+            if (vowels.contains(String.valueOf(position))) {
+                ausgabe += position + "s" + position;
+            } else {
+                ausgabe += position;
+            }
+        }
+        System.out.println(ausgabe);
+    }
 }
