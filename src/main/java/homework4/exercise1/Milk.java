@@ -1,4 +1,4 @@
-package homework3.exercise1;
+package homework4.exercise1;
 
 public class Milk extends PopularGrocery{
     public Milk (int quantity, int discountThresold, int popularityLevel){

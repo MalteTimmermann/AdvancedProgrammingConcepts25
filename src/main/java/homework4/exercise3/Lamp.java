@@ -1,4 +1,4 @@
-package homework3.exercise3;
+package homework4.exercise3;
 
 public class Lamp implements Switchable, Dimmable {
     boolean isOn;
