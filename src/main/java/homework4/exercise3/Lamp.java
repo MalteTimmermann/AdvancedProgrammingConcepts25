@@ -40,16 +40,4 @@ public class Lamp implements Switchable, Dimmable {
     public int getBrightness() {
         return brightness;
     }
-
-    @Override
-    public void dimToHalf() {
-        if (!isOn) {
-            System.out.println("The lamp is off. Please turn it on to dim.");
-            return;
-        }
-        brightness = MAX_BRIGHTNESS / 2;
-        System.out.println("Brightness dimmed to half: " + brightness + ".");
-    }
-
-
 }
