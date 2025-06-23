@@ -1,4 +1,4 @@
-package homework8.exercise2;
+package homework9.exercise2;
 
 public class Student {
     private String name;

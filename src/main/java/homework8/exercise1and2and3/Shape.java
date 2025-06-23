@@ -1,4 +1,4 @@
-package homework7.exercise1and2and3;
+package homework8.exercise1and2and3;
 
 public abstract class Shape {
     public double getArea(){

@@ -1,4 +1,4 @@
-package homework8.exercise3;
+package homework9.exercise3;
 
 public class Movie {
     private String title;
